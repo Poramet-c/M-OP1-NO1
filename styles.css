@@ -1,0 +1,78 @@
+body {
+    font-family: 'Kanit', sans-serif;
+
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 20px ;
+
+    height: 100vh;
+    background-color: white; /* Cream */
+    color: #704214; /* Sepia */
+    overflow: hidden;
+}
+
+#formula-1 , #formula-2 {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    border: 3px solid black;
+    display: block;
+    margin-top: 20px; /* Add margin-top to create space between the text and the image */
+    
+    margin: 0 auto;
+    box-shadow: 0 0 1px black;
+}
+
+h1 {
+    margin: 0;
+    margin-left: -10px ;
+
+    font-size: 2.5em;
+}
+
+p {
+    margin-top: 5px ;
+    font-size: 1.2em;
+}
+
+#numberForm {
+    margin: 0 auto ;
+    padding: 20px ;
+    border: 2px black;
+    border-radius: 5px ;
+
+    box-shadow: 0 0 3px black;
+}
+
+#output {
+    margin: 30px auto 15px;
+
+    text-align: center;
+
+    min-width: 328px ;
+    max-width: fit-content;
+
+    padding: 20px ;
+    border: 2px black;
+    border-radius: 3px ;
+
+    box-shadow: 0 0 3px black;
+}
+
+.signature , .copyright {
+    vertical-align: auto;
+    align-items: center ;
+    text-align: center;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #ffffff;
+    vertical-align: auto;
+    align-items: center ;
+    text-align: center;
+    margin: 0 auto;
+}
