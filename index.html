@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> มหัศจรรย์ลำดับเรขาคณิตพิชิตฟีโบนักชี </title>
+    
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+    </style>
+    <!-- JavaScript -->
+    <script src="script.js" defer>
+         function handleKeyPress(event) {
+            if (event.key === 'Enter') {
+                submitN();
+            }
+        }   
+    </script>
+    
+</head>
+<body>
+    <!-- 1 1 2 3 5 8 13 ... -->
+    <header>
+        <header><h1>มหัศจรรย์ลำดับเรขาคณิตพิชิตฟีโบนักชี</h1></header>
+
+        <p>โครงงานของนักเรียนโรงเรียนนางรองสำหรับงานศิลปหัตถกรรมนักเรียน ครั้งที่ 71 ปีการศึกษา 2566 </p>
+
+        <hr>
+    </header>
+
+    <div>
+        <p>
+           <img id="formula-1" src="formula-4.png" alt="The Fn Formula" >
+        </p>
+    </div>
+    
+    <form id="numberForm">
+        <label for="numberForm">กรอกเลข n เพื่อค้นหาพจน์ที่ n :</label>
+        <input type="number" id="userNumber" name="userNumber" min=1 max=42 required onkeydown="handleKeyPress(event)" >
+        <button type="button" onclick="submitN()">ค้นหา</button>
+    </form>
+
+    <div>
+        <h4 id="output"> -- กรอกค่า n -- </h4>
+    </div>
+
+    <footer>
+        <br>
+        <hr>
+        <!--
+        <div class="signature"><b> ปรเมษฐ์ </div>
+        <p class="signature">P.F.O.N.T</b></p>
+        <div class="social-links">
+            <a href="" target="_blank" rel="noopener noreferrer"></a>
+            <a href="" target="_blank" rel="noopener noreferrer"></a>
+            -->
+        </div>
+        <p class="copyright">&copy; 2023 Poramet. All Rights Reserved And Can Be Used In Nangrong School's Academic Support.</p>
+    </footer>
+
+</body>
+</html>
